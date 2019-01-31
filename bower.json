@@ -1,0 +1,19 @@
+{
+  "name": "design_black-site",
+  "version": "0.0.0",
+  "authors": [
+    "Ilya <middls647@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "3.*"
+  }
+}
