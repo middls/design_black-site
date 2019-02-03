@@ -1,6 +1,6 @@
 .side-nav {
-	position: relative;
-	display: flex;
+	  position: relative;
+	  display: flex;
   	width: 100px;
   	height: 70%;
   	max-height: 750px;
@@ -61,17 +61,17 @@
 
   	li.is-active {
   		color: $highlight;
-    	transition: color .4s ease-in-out;
+    	transition: color 0.4s ease-in-out;
 
     	span {
     		opacity: 1;
       		visibility: visible;
-      		transition: opacity .4s ease-in-out;
+      		transition: opacity 0.4s ease-in-out;
     	}
 
     	&::before {
     		left: -33px;
-      		color: $white;
+      	color: $white;
     	}
   	}
 }
